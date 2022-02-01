@@ -1,6 +1,6 @@
 var fs = require("fs")
 // console.log(fs)
-var values = fs.readFileSync("./day_1_2020_input.txt", "utf8")
+var values = fs.readFileSync("./day_1_2020.txt", "utf8")
 // console.log(values)
 array_2 = values.split("\n").map((n) => {
     return parseInt(n)})
